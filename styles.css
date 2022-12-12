@@ -3,9 +3,11 @@
 :root {
   --primary-color: #ae66f9;
   --dark-gray: #3f3d56;
+  --off-white-gray: #f0f0f0;
 }
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 1rem;
 }
 hr {
   margin: 2rem 0rem;
@@ -60,7 +62,7 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
-  border-radius: 1rem 0rem 1rem 0rem;
+  border-radius: 0rem 1rem 0rem 1rem;
 }
 
 .navigation .nav-brand {
@@ -93,11 +95,45 @@ hr {
   margin: auto;
 }
 
-.hero .hero-heading{
-    color: var(--dark-gray);
-    padding-top: 1rem;
+.hero .hero-heading {
+  color: var(--dark-gray);
+  padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-inverted{
-    color: var(--primary-color);
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+
+/* Sections */
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white-gray);
+  border-radius: 0rem 1.5rem 0rem 1.5rem;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-radius: 0rem 1rem 0rem 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
