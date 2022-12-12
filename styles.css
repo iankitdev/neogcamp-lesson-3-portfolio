@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root{
+    --primary-color: #AE66F9;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+hr{
+    margin: 2rem 0rem;
+}
+/* Container */
+
+.container {
+     padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* HERE I HAVE USED BEM NAMING CONVENTION */
+
+/* Links */
+
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+ 
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
