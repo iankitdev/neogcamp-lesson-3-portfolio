@@ -1,52 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-:root{
-    --primary-color: #AE66F9;
+:root {
+  --primary-color: #ae66f9;
+  --dark-gray: #3f3d56;
 }
 body {
   font-family: "Montserrat", sans-serif;
 }
-hr{
-    margin: 2rem 0rem;
+hr {
+  margin: 2rem 0rem;
 }
+
 /* Container */
 
 .container {
-     padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
 
-.container-center{
-    max-width: 600px;
-    margin: auto;
+.container-center {
+  max-width: 600px;
+  margin: auto;
 }
 
 /* HERE I HAVE USED BEM NAMING CONVENTION */
 
 /* Links */
 
-
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-.link-primary{
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
 
-.link-secondary{
-    border-radius: 0.5rem;
+.link-secondary {
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem 0rem 1rem 0rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+/* Header */
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero .hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted{
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
-
-.list-non-bullet{
-    list-style: none;
-}
- 
-.list-item-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
 }
