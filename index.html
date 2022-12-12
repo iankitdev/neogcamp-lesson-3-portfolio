@@ -33,7 +33,7 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
+    <div class="container container-center">This is a fluid container and it will go till the end of the page.</div>
 
     <h3>center container</h3>
     <div class="container container-center">This is a centered container and it will go till the specified width.</div>
@@ -98,43 +98,49 @@
 
     <header class="hero">
         <img class="hero-image" src="images/hero_image.svg">
-        <h1 class="hero-heading">Adarsh Balika the <span class="heading-inverted">web developer</span></h1>
+        <h1 class="hero-heading">Adarsh Balika the
+            <span class="heading-inverted">web developer</span></h1>
     </header>
-
-    <hr>
-
-    <h2>Below Image is sourced from web.</h2>
-    <img src="https://pbs.twimg.com/media/Ep7R1-FVgAEi5ki?format=jpg&name=small">
 
     <hr>
 
     <h2>@sections</h2>
 
-    <section>
-        <h3>white-section</h3>
-        <p>This will have white background.</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white-section</h1>
+            <p>The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The
+                President of India is the Supreme Commander of the Indian Army,and its professional head is the Chief of
+                Army Staff (COAS), who is a four-star general. Two officers have been conferred with the rank of field
+                marshal, a five-star rank, which is a ceremonial position of great honour.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off-white-section</h3>
-        <p>This will have gray background.</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off-white-section</h1>
+            <p>The Indian Army is the land-based branch and the largest component of the Indian Armed Forces. The
+                President of India is the Supreme Commander of the Indian Army,and its professional head is the Chief of
+                Army Staff (COAS), who is a four-star general. Two officers have been conferred with the rank of field
+                marshal, a five-star rank, which is a ceremonial position of great honour.</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
-        <div>Some small heading inside footer.</div>
-        <ul>
-            <li>
-                <a href="/"> Social One</a>
+    <footer class="footer container">
+        <div class="footer-header">Some small heading inside footer.</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/"> Social One</a>
             </li>
-            <li>
-                <a href="/"> Social Two</a>
+            <li class="list-item-inline">
+                <a class="link" href="/"> Social Two</a>
             </li>
-            <li>
-                <a href="/"> Contact Us </a>
+            <li class="list-item-inline">
+                <a class="link" href="/"> Contact Us </a>
             </li>
         </ul>
     </footer>
