@@ -137,14 +137,3 @@ hr {
 .footer ul{
     padding-inline-start: 0px;
 }
-
-.icon{
-  max-width: 30px;
-  display: inline;
-  margin: auto;
-}
-.icon-git{
-  max-width: 34px;
-  display: inline;
-  margin: auto;
-}
