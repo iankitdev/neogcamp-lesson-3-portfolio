@@ -1,3 +1,18 @@
-## Its my Personal Portfolio website built with HTML5 and CSS3, which contains everything about me, from my projects to my blogs. Have a Look!
 
-The code contains a component library.
+# Ankit Sharma's Personal Portfolio Website
+
+This is my personal portfolio website which contains information about me on home page. It also contains my Project Section on project page, and my Blogs on blog page.
+
+Also linked all my Social Media Handles at the end of every page.
+
+
+## Technologies used :
+
+* HTML5
+* CSS3
+* Netlify for Hosting
+## Authors
+
+- [Github - @iankitdev](https://www.github.com/iankitdev)
+- [LinkedIn - @iankitdev](www.linkedin.com/in/iankitdev)
+
