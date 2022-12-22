@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #ae66f9;
+  --primary-color: #379237;
   --dark-gray: #3f3d56;
   --off-white-gray: #f0f0f0;
 }
@@ -56,7 +56,7 @@ hr {
 }
 
 .link-primary:hover{
-  background-color: #932eff;
+  background-color: #287228;
 }
 
 /* .link-secondary:hover{
