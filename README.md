@@ -14,5 +14,5 @@ Also linked all my Social Media Handles at the end of every page.
 ## Authors
 
 - [Github - @iankitdev](https://www.github.com/iankitdev)
-- [LinkedIn - @iankitdev](www.linkedin.com/in/iankitdev)
+- [LinkedIn - @iankitdev](https://www.linkedin.com/in/iankitdev)
 
